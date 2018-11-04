@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Ini Contoh HTML</title>
+	<link href="style1.css" type="text/css" rel="stylesheet">
+	<script src="main1.js"></script>
+</head>
+	<body>
+		<header><h1 align="center">Ini Body Dengan Heading 1</h1></header><br/>
+		<div id="searchBox" align="center">
+			<span id="cara">
+				<br/><p>Silahkan Dicari Apa Yang Pengen Dicari</p>
+				<input type="text" id="search" />
+				<button type="submit" onclick="cari()">Cari</button><br/><br/>
+			</span>
+			<button type="button" onclick="document.getElementById('cara').style.display='none'">Sembunyikan Search Box</button>
+			<button type="button" onclick="document.getElementById('cara').style.display='block'">Tampilkan Search Box</button>
+		</div>
+		<aside align="center">
+			<br/>
+			<h3 id="kiri"></h3>
+			<img id="tengah" width="250" height="250"/>
+			<h3 id="kanan"></h3>
+		</aside>
+	</body>
+</html>
